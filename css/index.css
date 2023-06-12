@@ -1,0 +1,44 @@
+body {
+  background: #f0f4fa;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.options {
+  display: flex;
+  gap: 12px;
+}
+
+.options > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 12px;
+  gap: 10px;
+
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+  color: #000000;
+  background: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.options > a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 12px;
+
+  width: 200px;
+  height: 200px;
+
+  background: #eef3ff;
+  color: #2d68ff;
+  border: 3px solid #2d68ff;
+  border-radius: 10px;
+  text-decoration: none;
+}
